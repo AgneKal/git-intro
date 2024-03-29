@@ -1,12 +1,16 @@
 {
   "name": "git-intro",
   "version": "1.0.0",
-  "description": "Mokomes Git",
+  "description": "git",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --port=4910",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "AgneKal (https://github.com/AgneKal)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
 }
